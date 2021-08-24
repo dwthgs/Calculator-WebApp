@@ -12,12 +12,6 @@ cd server
 yarn
 ```
 
-### Run database migration
-
-```
-node ace migration:run
-```
-
 ### Run the server
 
 ```
