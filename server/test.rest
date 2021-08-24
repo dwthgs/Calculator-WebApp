@@ -1,0 +1,43 @@
+# POST http://localhost:3333/api/register HTTP/1.1
+# content-type: application/json
+
+# {
+#     "nick": "johny",
+#     "first_name": "John",
+#     "last_name": "Doe",
+#     "password": "pass"
+# }
+
+# POST http://localhost:3333/api/login HTTP/1.1
+# content-type: application/json
+
+# {
+#     "nick": "jany",
+#     "password": "pasola"
+# }
+
+PUT http://localhost:3333/api/profile HTTP/1.1
+content-type: application/json
+Authorization: Bearer Mg.ZalkZXwLhbE3PGxdOTtE96AuXK5NilNJlS1af_eTsVETvn1oHNIlUALd9IhL
+
+{
+    "nick": "jany",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "password": "thePass12"
+}
+
+# GET http://localhost:3333/api/profile HTTP/1.1
+# Authorization: Bearer Mg.ZalkZXwLhbE3PGxdOTtE96AuXK5NilNJlS1af_eTsVETvn1oHNIlUALd9IhL
+
+# GET http://localhost:3333/api/history HTTP/1.1
+# Authorization: Bearer Mg.ZalkZXwLhbE3PGxdOTtE96AuXK5NilNJlS1af_eTsVETvn1oHNIlUALd9IhL
+
+# POST http://localhost:3333/api/history HTTP/1.1
+# content-type: application/json
+# Authorization: Bearer Mg.ZalkZXwLhbE3PGxdOTtE96AuXK5NilNJlS1af_eTsVETvn1oHNIlUALd9IhL
+
+# {
+#     "expression": "2*2",
+#     "result": "4"
+# }
