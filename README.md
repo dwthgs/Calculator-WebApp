@@ -15,7 +15,7 @@ yarn
 ### Run the server
 
 ```
-yarn start
+yarn dev
 ```
 
 ## Client Setup
